@@ -1,0 +1,44 @@
+Part 1: Theoretical Understanding
+
+1. Short Answer Questions
+
+Q1: Explain the primary differences between TensorFlow and PyTorch. When would you choose one over the other?
+Feature	TensorFlow	PyTorch
+Computation Graph	Static (define-then-run)	Dynamic (define-by-run)
+Syntax & Debugging	More verbose, harder to debug	Pythonic, intuitive, easy to debug
+Deployment Tools	Strong (TF Serving, TFLite, TensorFlow.js)	Improving (TorchServe, ONNX)
+Community Adoption	Widely used in industry	Widely used in research and academia
+Ecosystem	TFX, TensorBoard, TensorFlow Hub	TorchVision, Hugging Face Transformers
+
+Choose TensorFlow when you need robust deployment, mobile support, or production pipelines. 
+
+Choose PyTorch when you want flexibility, easier debugging, and rapid prototyping for research.
+_______
+Q2: Describe two use cases for Jupyter Notebooks in AI development.
+Exploratory Data Analysis (EDA) Jupyter Notebooks allow interactive exploration of datasets using visualizations, summaries, and inline charts. This helps in understanding data distributions, missing values, and feature relationships.
+
+Model Prototyping and Experimentation Developers can write, test, and iterate on machine learning models in small, manageable code blocks. This makes it easy to tweak parameters, visualize results, and document findings in one place.
+
+Q3: How does spaCy enhance NLP tasks compared to basic Python string operations?
+Basic Python string methods (like .split(), .find(), .replace()) are limited to surface-level text manipulation. In contrast, spaCy provides:
+
+Tokenization: Breaks text into linguistically meaningful units
+
+Named Entity Recognition (NER): Identifies entities like names, dates, and organizations
+
+Part-of-Speech Tagging: Labels words with grammatical roles
+
+Dependency Parsing: Understands syntactic structure of sentences
+
+Pretrained Pipelines: Offers fast, accurate models for multiple languages
+
+spaCy is optimized for real-world NLP tasks and is significantly more powerful and accurate than basic string operations.
+
+ 2. Comparative Analysis: Scikit-learn vs. TensorFlow
+
+Feature	Scikit-learn	                                        TensorFlow
+Target Applications	Classical ML (e.g., decision trees, SVMs)	Deep learning (e.g., CNNs, RNNs, transformers)
+Ease of Use	Very beginner-friendly, simple API	                Steeper learning curve, more configuration
+Community Support	Mature, stable, widely used in education	Massive, especially in industry and DL
+
+Use Scikit-learn for structured data and traditional ML tasks.  Use TensorFlow for deep learning, neural networks, and production deployment.
