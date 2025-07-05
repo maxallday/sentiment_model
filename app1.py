@@ -84,4 +84,4 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue", secondary_hue="cyan")) a
     )
 
 # 🚀 Launch the app
-demo.launch()
+demo.launch(share=True)
