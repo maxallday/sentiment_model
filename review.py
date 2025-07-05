@@ -156,14 +156,14 @@ for review, pred in zip(sample_reviews, predictions):
 
 
 
-import gradio as gr
+#import gradio as gr
 
 # Load the trained sentiment pipeline
-sentiment_classifier = pipeline("text-classification", model="./sentiment_model", tokenizer="./sentiment_model")
+#sentiment_classifier = pipeline("text-classification", model="./sentiment_model", tokenizer="./sentiment_model")
 
 # Define a prediction function
-def predict_sentiment(text):
-    result = sentiment_classifier(text)[0]
+#def predict_sentiment(text):
+    '''result = sentiment_classifier(text)[0]
     label = "Positive" if result['label'] == 'LABEL_1' else "Negative"
     return f"{label} (Confidence: {result['score']:.2f})"
 
@@ -175,4 +175,4 @@ gr.Interface(fn=predict_sentiment,
              description="Enter a product review to see if it's positive or negative."
             ).launch()
 
-
+'''
