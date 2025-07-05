@@ -29,3 +29,6 @@ The sentiment model is stored locally in the `sentiment_model/` folder. It was f
 ## ✨ Demo
 
 Live on Hugging Face Spaces #comming soon
+
+#note
+This model is larger than expected because it uses a deep learning approach with transformer-based models (like BERT) trained on a large set of Amazon reviews. These models are very powerful and accurate, but they also come with many parameters, which makes the file size much bigger. While simpler methods could work for basic sentiment analysis or entity recognition, this project focuses on higher accuracy and better performance on real-world text — even if that means a heavier model.
